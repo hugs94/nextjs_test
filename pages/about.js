@@ -1,7 +1,13 @@
+import WithLayout from '../components/Layout';
+
 export default function About() {
   return (
-    <div>
-      <p>This is the about page</p>
-    </div>
+    <WithLayout>
+      <p>About</p>
+    </WithLayout>
   );
 }
+
+// const Page = () => <p>THis is about page</p>;
+
+// export default withLayout(Page);
